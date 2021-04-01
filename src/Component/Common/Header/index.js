@@ -9,7 +9,10 @@ const Header = (props) => {
                 <img src={logo1} alt="kanter" />
             </div>
             <nav>
-                
+                <ul>
+                    <li>Hone</li>
+                    <li>Hone</li>
+                </ul>
             </nav>
         </div>
         )
