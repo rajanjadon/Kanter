@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Header from './Component/Common/Header';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Header firstName="Rajan" lastName="Jadon"/>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
