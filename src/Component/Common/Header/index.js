@@ -1,19 +1,14 @@
-import React, {useState, useEffect} from 'react';
 import logo1 from '../../../assests/images/logo192.png';
-
+import Navbar from './dependencies/Navbar';
+import Logo from './dependencies/Logo';
+import navList from './dependencies/mock/nav.json'
 
 const Header = (props) => {
+
     return (
         <div className="header-top">
-            <div className="logo">
-                <img src={logo1} alt="kanter" />
-            </div>
-            <nav>
-                <ul>
-                    <li>Hone</li>
-                    <li>Hone</li>
-                </ul>
-            </nav>
+            <Logo img={logo1} />
+            <Navbar navData={navList} />
         </div>
         )
 }

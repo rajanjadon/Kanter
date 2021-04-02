@@ -1,5 +1,4 @@
 import logo from './assests/images/logo192.png';
-import Header from './Component/Common/Header';
 import './App.css';
 
 function App() {
